@@ -23,12 +23,12 @@ function next_wednesday() {
 function removephrase() {
   db.delete("/harvoji/phrases[-1]");
   db.delete('/harvoji/phrase_responses[-1]');
-}
+};
 
 function removechat() {
   db.delete("/harvoji/chats[-1]");
   db.delete('/harvoji/chat_responses[-1]');
-}
+};
 
 var commands = [
   'coinflip',
