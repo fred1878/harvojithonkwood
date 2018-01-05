@@ -129,5 +129,3 @@ client.on('message', msg => {
 });
 
 db.reload()
-
-client.login('MzQxMjUxNjEwMTcwNjIxOTUy.DF-lQA.7pxD2fslKE5ixYdYCZRsCKmXdP0');
